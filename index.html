@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ReType Support</title>
+  <meta name="description" content="ReType support: contact, FAQ, troubleshooting, and legal links." />
+  <style>
+    :root { --fg:#0f172a; --muted:#475569; --bg:#ffffff; --card:#f8fafc; --border:#e2e8f0; }
+    body { margin:0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      color:var(--fg); background:var(--bg); }
+    a { color:inherit; }
+    .wrap { max-width: 920px; margin: 0 auto; padding: 24px; }
+    header { padding: 18px 0 8px; }
+    h1 { margin:0; font-size: 28px; }
+    p { color: var(--muted); line-height: 1.7; }
+    .row { display:flex; gap:10px; flex-wrap:wrap; margin-top: 10px; }
+    .btn { display:inline-flex; align-items:center; justify-content:center; padding: 10px 12px; border-radius:12px; border:1px solid var(--border); background:var(--card); text-decoration:none; font-weight:600; }
+    .card { margin-top: 14px; border:1px solid var(--border); border-radius:16px; overflow:hidden; background:#fff; }
+    .inner { padding: 16px; }
+    h2 { margin:0; font-size: 17px; }
+    ul { margin: 10px 0 0; padding-left: 18px; color: var(--muted); line-height: 1.7; }
+    .faq dt { margin-top: 12px; font-weight: 700; }
+    .faq dd { margin: 6px 0 0; color: var(--muted); }
+    .shots { display:grid; grid-template-columns: 1fr; gap:12px; margin-top:12px; }
+    .shot { border:1px solid var(--border); border-radius:14px; overflow:hidden; background:#fff; }
+    .shot img { width:100%; height:auto; display:block; }
+    .cap { padding: 10px 12px; font-size: 13px; color: var(--muted); border-top: 1px solid var(--border); background: #fff; }
+    footer { margin-top: 22px; padding-top: 16px; border-top:1px solid var(--border); color:var(--muted); font-size: 13px; display:flex; gap:12px; flex-wrap:wrap; justify-content:space-between; }
+    @media (min-width: 860px) {
+      .shots { grid-template-columns: 1fr 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>ReType Support</h1>
+      <p>
+        Contact, FAQ, and troubleshooting for ReType. Use the links below for the marketing page and legal information.
+      </p>
+      <div class="row">
+        <a class="btn" href="../ReType-marketing/">← Marketing page</a>
+        <a class="btn" href="../ReType-legal/">Terms &amp; Privacy</a>
+      </div>
+    </header>
+
+    <section class="card">
+      <div class="inner">
+        <h2>Contact</h2>
+        <p>
+          For support or feedback, please use the contact form below.
+        </p>
+        <div class="row">
+          <a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLScKZ5qoBOkMUa0Cx6Wp1ph13hJRHH0TvXj3w5o9fSjRBLrthw/viewform" target="_blank" rel="noopener">Open contact form</a>
+        </div>
+        <ul>
+          <li>We aim to reply within 1–3 business days.</li>
+          <li>For bug reports, please include device, iOS version, and steps to reproduce.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card">
+      <div class="inner">
+        <h2>FAQ</h2>
+        <dl class="faq">
+          <dt>Q. Does ReType diagnose my MBTI in the app?</dt>
+          <dd>A. You can either declare your type (if you already know it) or go through a short onboarding quiz to set a baseline. ReType is not a medical or clinical diagnostic tool.</dd>
+
+          <dt>Q. How do I cancel my subscription?</dt>
+          <dd>A. On your iPhone: Settings → Apple ID → Subscriptions. Manage or cancel your ReType subscription there (per App Store rules).</dd>
+
+          <dt>Q. Where is my data stored?</dt>
+          <dd>A. In the current version, data is stored locally on your device. We do not sync your answers or type data to the cloud unless we announce otherwise.</dd>
+
+          <dt>Q. I found a bug. What should I send?</dt>
+          <dd>A. Screenshots, when it happened, steps to reproduce, and your device and iOS version are very helpful.</dd>
+        </dl>
+      </div>
+    </section>
+
+    <section class="card">
+      <div class="inner">
+        <h2>Screen reference</h2>
+        <p>These screens may help when describing where you need help.</p>
+        <div class="shots">
+          <div class="shot">
+            <img src="images/dashboard_top.png" alt="Dashboard — top type" />
+            <div class="cap">Dashboard — top type</div>
+          </div>
+          <div class="shot">
+            <img src="images/dashboard_calender.png" alt="Dashboard — calendar" />
+            <div class="cap">Dashboard — calendar</div>
+          </div>
+          <div class="shot">
+            <img src="images/todays_question.png" alt="Today's questions" />
+            <div class="cap">Today’s questions</div>
+          </div>
+          <div class="shot">
+            <img src="images/training_result.png" alt="Training result" />
+            <div class="cap">Training result</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div>© 2026 ReType</div>
+      <div style="display:flex; gap:12px; flex-wrap:wrap;">
+        <a href="../ReType-marketing/">Marketing</a>
+        <a href="../ReType-legal/">Terms &amp; Privacy</a>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
